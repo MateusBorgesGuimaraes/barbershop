@@ -1,0 +1,30 @@
+.headerContainer {
+  position: relative;
+}
+
+.header {
+  position: absolute;
+  z-index: 100;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 1rem;
+}
+
+
+.header nav ul {
+  display: flex;
+  font-family: var(--font-secundary);
+  color: #fff;
+  font-size: 1.5rem;
+  gap: 2.5rem;
+  
+}
+
+.header nav ul li a:hover {
+  transition: .3s ease-in-out;
+}
+
+.header nav ul li a:hover {
+  color: var(--gold-500);
+}

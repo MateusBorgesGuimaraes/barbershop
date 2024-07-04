@@ -1,0 +1,45 @@
+.cardSobreContainer, .cardSobreContainerEven {
+  padding: 1.25rem 3.125rem;
+  display: flex;
+  gap: 4.5rem;
+  border: 4px solid var(--brown-900);
+}
+
+.cardSobreContainerEven {
+  background: var(--brown-900);
+}
+
+.containerImage {
+  border: 4px solid var(--brown-900);
+}
+
+.containerImage > img{
+  min-width: 380px;
+  min-height: 280px;
+  object-fit: cover;
+}
+
+.contentContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.contentContainer > h3{
+  display: flex;
+  align-items: center;
+  font-size: 2.5rem;
+  font-family: var(--font-drama);
+  font-weight: normal;
+  color: var(--gold-600);
+  padding-bottom: .2rem;
+  border-bottom: 2px solid var(--brown-800);
+}
+
+.contentContainer > p {
+  padding-top: 1rem;
+  color: var(--brown-100);
+  font-size: 1rem;
+  font-weight: normal;
+  font-family: var(--font-body);
+}

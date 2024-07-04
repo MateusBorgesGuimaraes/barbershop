@@ -1,0 +1,18 @@
+.precosBg {
+  background: linear-gradient(to right, var(--brown-1000) 0 50%, var(--brown-800) 50% 100%);
+  padding-bottom: 2rem;
+}
+
+.containerTitle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.containerPrecos {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 380px);
+  gap: 20px;
+  justify-content: center;
+}
+

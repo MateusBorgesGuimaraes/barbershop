@@ -3,6 +3,7 @@ import localFont from 'next/font/local';
 import { Inter, EB_Garamond } from 'next/font/google';
 import './globals.css';
 import Header from '../components/header';
+import Footer from '@/components/Footer';
 
 export const font_body = Inter({
   weight: ['400', '500'],
@@ -44,6 +45,7 @@ export default function RootLayout({
       <body>
         <Header />
         {children}
+        <Footer />
       </body>
     </html>
   );

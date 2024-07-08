@@ -4,10 +4,14 @@ import Title from './Title';
 
 export default function Agendamento() {
   return (
-    <section className={`${styles.agendamentoContainer} container`}>
+    <section
+      id="agendamento"
+      className={`${styles.agendamentoContainer} container`}
+    >
       <div className={styles.agendamentoTitleContainer}>
         <Title text="Agende o seu corte agora" />
         <Image
+          className={styles.dec}
           src={'/assets/icons/dec-400-38e69.svg'}
           alt="decoração"
           width={400}

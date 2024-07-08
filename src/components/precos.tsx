@@ -5,12 +5,13 @@ import CardPreco from './CardPreco';
 
 export default function Precos() {
   return (
-    <section className={styles.precosBg}>
+    <section id="precos" className={styles.precosBg}>
       <div className="container">
         <div>
           <div className={styles.containerTitle}>
             <Title text="Cortes Mais Pedidos" />
             <Image
+              className={styles.dec}
               src={'/assets/icons/dec-400-38e69.svg'}
               alt="decoração"
               width={400}

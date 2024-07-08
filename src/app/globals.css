@@ -68,3 +68,9 @@ ul {
 .drama {
   font-family: var(--font-drama);
 }
+
+@media(max-width:1180px) {
+  /* .container {
+    padding: 0 1rem;
+  } */
+}

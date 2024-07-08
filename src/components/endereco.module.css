@@ -9,7 +9,6 @@
   grid-template-columns: 1fr 1fr;
   gap: 2.5rem;
   align-items: center;
-  
 }
 
 .infoList li {
@@ -61,4 +60,48 @@
   height: 1.25rem;
   /* background: green; */
   border-radius: 50%;
+}
+
+@media(max-width:880px){
+  .imageEndereco {
+    display: none;
+  }
+
+  .agendamentoContent {
+    display: grid;
+    grid-template-columns: 40px 1fr 40px;
+    align-items: center;
+    justify-content: center;
+  }
+  .contentEndereco {
+    grid-column: 2;
+  }
+}
+
+@media(max-width:600px){
+  .agendamentoContent {
+    grid-template-columns: 10px 1fr 10px;
+  }
+  .contentEndereco {
+    grid-column: 2;
+  }
+}
+
+@media(max-width:550px){
+  .infoList li span {
+    font-size: .75rem;
+  }
+  
+  .infoList li span:first-child {
+    font-size: 1rem;
+  }
+}
+
+@media(max-width:400px){
+  .agendamentoContent {
+    grid-template-columns: 1fr;
+  }
+  .contentEndereco {
+    grid-column: 1;
+  }
 }

@@ -73,3 +73,29 @@
   border-color: var(--brown-700);
   background: var(--brown-800);
 }
+
+@media(max-width:1080px) {
+  .dec {
+    display: none;
+  }
+}
+
+@media(max-width:800px) {
+  .agendamentoContent {
+    grid-template-columns: 1fr ;
+  }
+
+  .photoAgendamento {
+    grid-row: 2;
+}
+
+.photoAgendamento > img {
+  width: 100%;
+ }
+}
+
+@media(max-width:460px) {
+  .photoAgendamento {
+    display: none;
+  }
+}

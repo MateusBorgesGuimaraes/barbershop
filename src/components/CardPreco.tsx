@@ -16,7 +16,13 @@ export default function CardPreco({
 }) {
   return (
     <div className={styles.cardContainer}>
-      <Image src={path} alt={alt} width={120} height={120} />
+      <Image
+        className={styles.icon}
+        src={path}
+        alt={alt}
+        width={120}
+        height={120}
+      />
       <h4>{title}</h4>
       <p>{content}</p>
       <span className={styles.preco}>{price}</span>

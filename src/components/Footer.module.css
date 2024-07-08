@@ -38,3 +38,25 @@
   font-family: var(--font-body);
   align-self: center;
 }
+
+@media(max-width:400px) {
+  .footerContainer {
+    align-items: center;
+  }
+  
+  
+  .contentFooter {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-around;
+  }
+
+  .contentFooter > div {
+    text-align: center;
+  }
+
+  .footerContainer > p {
+    text-align: center;
+  }
+}

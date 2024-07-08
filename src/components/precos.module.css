@@ -16,3 +16,17 @@
   justify-content: center;
 }
 
+@media(max-width:1000px) {
+  .dec {
+    display: none;
+  }
+}
+
+@media(max-width:450px) {
+  .containerPrecos {
+    grid-template-columns: repeat(auto-fill, 280px);
+    gap: 12px;
+    justify-content: center;
+  }
+}
+

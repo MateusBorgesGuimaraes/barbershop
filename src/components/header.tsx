@@ -38,10 +38,10 @@ export default function Header() {
               <Link href={`#precos`}>preços</Link>{' '}
             </li>
             <li>
-              <Link href={`#contato`}>contato</Link>{' '}
+              <Link href={`#agendamento`}>agendamento</Link>{' '}
             </li>
             <li>
-              <Link href={`#agendamento`}>agendamento</Link>{' '}
+              <Link href={`#contato`}>contato</Link>{' '}
             </li>
           </ul>
         </nav>

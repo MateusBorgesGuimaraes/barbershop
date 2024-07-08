@@ -3,7 +3,7 @@ import styles from './sobre.module.css';
 
 export default function Sobre() {
   return (
-    <section className={` ${styles.sobreContainer} container`}>
+    <section id="sobre" className={` ${styles.sobreContainer} container`}>
       <CardSobre
         path="/assets/images/barbeiro380-280.jpg"
         alt="barbeiro limpando as ferramentas"

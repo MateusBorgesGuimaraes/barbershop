@@ -8,8 +8,8 @@ export default function Home() {
   return (
     <main>
       <HeroSection />
-      <Precos />
       <Sobre />
+      <Precos />
       <Agendamento />
       <Endereco />
     </main>

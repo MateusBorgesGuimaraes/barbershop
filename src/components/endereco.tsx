@@ -18,7 +18,7 @@ export default function Endereco() {
   }, []);
 
   return (
-    <section className={`${styles.bgEndereco}`}>
+    <section id="contato" className={`${styles.bgEndereco}`}>
       <div className="container">
         <Title text="Endereco e Horarios" />
 

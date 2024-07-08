@@ -14,3 +14,13 @@
   border: 4px solid var(--brown-600);
   color: var(--gold-800);
 }
+
+@media(max-width:700px) {
+  .button {
+    font-weight:700;
+    border: 4px solid var(--brown-500);
+    padding: 4px 1rem;
+  }
+  
+  
+}

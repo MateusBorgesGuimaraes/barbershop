@@ -38,6 +38,8 @@
   background: none;
   border: none;
   display: none;
+  padding: 0px;
+  margin: 0px;
   cursor: pointer;
 }
 
@@ -85,7 +87,6 @@
 }
 
 @media(max-width: 27.5rem) {
-
   .iconHeader > svg{
     width: 160px;
     height: 51px;
